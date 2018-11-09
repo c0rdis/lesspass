@@ -140,7 +140,7 @@ export default class PasswordGeneratorScreen extends Component {
             >
               <Button
                 mode="contained"
-                onPress={() => this.copyPassword()}
+                onPress={() => this.generatePassword()}
                 style={{ alignSelf: "stretch" }}
               >
                 {copied ? (
